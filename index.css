@@ -1,8 +1,8 @@
-:root{
-    --background-color: rgb(36, 36, 36);
-    --grey-color: rgb(107, 107, 107);
-    --ligth-blue-color: rgb(119, 148, 150);
-    --dark-grey-color: rgb(151, 151, 151);
+:root {
+  --background-color: rgb(36, 36, 36);
+  --grey-color: rgb(107, 107, 107);
+  --ligth-blue-color: rgb(119, 148, 150);
+  --dark-grey-color: rgb(151, 151, 151);
 }
 
 * {
@@ -86,7 +86,8 @@
   width: 280px;
   height: 450px;
   border-radius: 5px;
-  background-color: var(--grey-color);
+  background-image: url("./giphy.gif");
+  background-size: cover;
   margin: 0 auto;
 }
 
@@ -99,8 +100,8 @@
 }
 
 .btn_home {
-    width: 70px;
-    height: 25px;
-    border: 2px solid var(--dark-grey-color);
-    border-radius: 40px;
+  width: 70px;
+  height: 25px;
+  border: 2px solid var(--dark-grey-color);
+  border-radius: 40px;
 }
