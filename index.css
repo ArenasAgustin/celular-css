@@ -11,12 +11,32 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+.background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  position: absolute;
+  background-color: var(--ligth-blue-color);
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: 0% 100%;
+  filter: blur(2px);
+}
+
 .container_mobile {
   width: 300px;
   height: 570px;
   border-radius: 40px;
   background-color: var(--background-color);
   margin: 40px auto;
+  z-index: 10;
 }
 
 .box_up {
@@ -86,6 +106,7 @@
   width: 280px;
   height: 450px;
   border-radius: 5px;
+  background-color: var(--grey-color);
   background-image: url("./giphy.gif");
   background-size: cover;
   margin: 0 auto;
